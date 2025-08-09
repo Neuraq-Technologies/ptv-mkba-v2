@@ -239,7 +239,7 @@ const UpdateNHC = () => {
 {[
   {field: "food", label: "Food (ഭക്ഷണം)", options: ["Good", "Bad", "Average", "Satisfy", "NOT CHECKED"]},
   {field: "drink", label: "Drink (പാനീയം)", options: ["Good", "Bad", "Average", "Satisfy", "NOT CHECKED"]},
-  {field: "pee", label: "Urine (മൂത്രം)", options: ["Normal", "Retention", "Inconvenience urinary","Flowys Catheter","Condom Catheter", "NOT CHECKED"]},
+  {field: "pee", label: "Urine (മൂത്രം)", options: ["Normal", "Retention", "Inconvenience urinary","Foley's Catheter","Condom Catheter", "NOT CHECKED"]},
   {field: "pop", label: "Pop (ശോധന)", options: [
     "Normal", 
     "Constipation", 
