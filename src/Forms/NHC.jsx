@@ -362,7 +362,6 @@ const NHC = () => {
           </select>
         </label>
 
-
       <h3>Section 2: Basic Matters (പ്രാഥമിക കാര്യങ്ങൾ)</h3>
 {[
   {field: "food", label: "Food (ഭക്ഷണം)", options: ["Good", "Bad", "Average", "Satisfy","VIA RYLES TUBE", "NOT CHECKED"]},
