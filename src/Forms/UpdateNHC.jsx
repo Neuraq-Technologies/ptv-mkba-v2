@@ -237,10 +237,10 @@ const UpdateNHC = () => {
 
              <h3>Section 2: Basic Matters (പ്രാഥമിക കാര്യങ്ങൾ)</h3>
 {[
-  {field: "food", label: "Food (ഭക്ഷണം)", options: ["Good", "Bad", "Average", "Satisfy","VIA RYLES TUBE", "NOT CHECKED"]},
+  {field: "food", label: "Food (ഭക്ഷണം)", options: ["Good", "Bad", "Average", "Satisfy", "NOT CHECKED"]},
   {field: "drink", label: "Drink (പാനീയം)", options: ["Good", "Bad", "Average", "Satisfy", "NOT CHECKED"]},
-  {field: "pee", label: "Urine (മൂത്രം)", options: ["Normal", "Retention", "Inconvenience urinary","Flowys Catheter","Condom Catheter", "NOT CHECKED"]},
-{field: "pop", label: "Pop (ശോധന)", options: [
+  {field: "pee", label: "Urine (മൂത്രം)", options: ["Normal", "Retention", "Inconvenience urinary","Foley's Catheter","Condom Catheter", "NOT CHECKED"]},
+  {field: "pop", label: "Pop (ശോധന)", options: [
     "Normal", 
     "Constipation", 
     "Diarrhea", 
@@ -248,7 +248,6 @@ const UpdateNHC = () => {
     "With the Help of Medicine (Daily)", 
     "With the Help of Medicine (Alternative Days)", 
     "With the Help of Medicine (Twice Weekly)",
-"Colostomy bag",
     "NOT CHECKED"
   ]},
   {field: "sleep", label: "Sleep (ഉറക്കം)", options: [
