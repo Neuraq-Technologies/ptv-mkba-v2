@@ -235,6 +235,7 @@ const PatientDetails = () => {
         ["Name", patient.name],
         ["Registration Date", patient.registrationDate],
         ["Address", patient.address],
+        ["Aadhaar Number", patient.aadhaarnumber],
         ["Location", patient.location],
         ["Ward", patient.ward],
         ["Age", patient.age],
@@ -372,6 +373,10 @@ const PatientDetails = () => {
                 <td>{patient.address || "N/A"}</td>
               </tr>
               <tr>
+                <td><strong>Aadhaar Number:</strong></td>
+                <td>{patient.aadhaarnumber || "N/A"}</td>
+              </tr>
+              <tr>
                 <td><strong>Location:</strong></td>
                 <td>{patient.location || "N/A"}</td>
               </tr>
@@ -405,6 +410,10 @@ const PatientDetails = () => {
               <tr>
                 <td><strong>Email:</strong></td>
                 <td>{patient.email || "N/A"}</td>
+              </tr>
+              <tr>
+                <td><strong>MLSP Nurse Number:</strong></td>
+                <td>{patient.MLSPNurseNumber|| "N/A"}</td>
               </tr>
               <tr>
                 <td><strong>Main Caretaker:</strong></td>

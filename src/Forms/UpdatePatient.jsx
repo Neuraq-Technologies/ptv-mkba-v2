@@ -17,6 +17,7 @@ const UpdatePatient = () => {
       gender: "",
       category: "",
       address: "",
+      aadhaarnumber:"",
       email: "",
       password: "",
       dob: "",
@@ -257,6 +258,16 @@ const UpdatePatient = () => {
             />
           </div>
           <div className="AddPatient-field">
+            <label htmlFor="aadhaarnumber">Aadhaar Number:</label>
+            <input
+              type="text"
+              id="aadhaarnumber"
+              name="aadhaarnumber"
+              value={patientData.profile.aadhaarnumber}
+              onChange={(e) => handleChange(e, "profile")}
+            />
+          </div>
+          <div className="AddPatient-field">
             <label htmlFor="email">Email:</label>
             <input
               type="text"
@@ -273,6 +284,16 @@ const UpdatePatient = () => {
               id="password"
               name="password"
               value={patientData.profile.password}
+              onChange={(e) => handleChange(e, "profile")}
+            />
+          </div>
+           <div className="AddPatient-field">
+            <label htmlFor="MLSPNurseNumber">MLSP Nurse Number</label>
+            <input
+              type="text"
+              id="MLSPNurseNumber"
+              name="MLSPNurseNumber"
+              value={patientData.profile.MLSPNurseNumber}
               onChange={(e) => handleChange(e, "profile")}
             />
           </div>
