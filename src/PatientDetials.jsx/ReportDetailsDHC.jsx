@@ -482,6 +482,10 @@ const exportToPrintshort = (report) => {
   addTable([
     ["Form Type", report.formType || "N/A"],
     ["Registration Date", report.registrationDate || "N/A"],
+      ["Team 1", report.team1 || "N/A"],
+      ["Team 2", report.team2 || "N/A"],
+      ["Team 3", report.team3 || "N/A"],
+      ["Team 4", report.team4 || "N/A"],
     ["Submitted At", report.submittedAt ? new Date(report.submittedAt).toLocaleString("en-US", {
       year: "numeric",
       month: "long",

@@ -487,6 +487,10 @@ const ReportDetailsNHCE = () => {
     addTable([
       
       ["Registration Date", report.registrationDate || "N/A"],
+      ["Team 1", report.team1 || "N/A"],
+      ["Team 2", report.team2 || "N/A"],
+      ["Team 3", report.team3 || "N/A"],
+      ["Team 4", report.team4 || "N/A"],
       ["Submitted At", report.submittedAt ? new Date(report.submittedAt).toLocaleString("en-US", {
         year: "numeric",
         month: "long",
@@ -495,7 +499,8 @@ const ReportDetailsNHCE = () => {
         minute: "2-digit",
         second: "2-digit",
         hour12: true,
-      }) : "N/A"],
+      }) : "N/A"]
+      ,
       
     ]);
     printWindow.document.write('</div>');
